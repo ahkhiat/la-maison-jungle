@@ -4,7 +4,7 @@ function Cart() {
     const flowersBouquet = 15;
     const totalCart = monsteraPrice + lierrePrice + flowersBouquet;
     return (
-        <div>
+        <div className="lmj-cart">
             <ul>
                 <li>Monstera   { monsteraPrice }</li>
                 <li>Lierre  { lierrePrice }</li>
